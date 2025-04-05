@@ -34,6 +34,6 @@ public class Demo {
 		// i!='
 		// ')collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 //		Map<Character, Long> collect = s1.chars().mapToObj(c-> (char)c).filter(i-> !Character.isWhitespace(i)).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
-//		System.out.println(collect);
+	System.out.println(collect);
 	}
 }
